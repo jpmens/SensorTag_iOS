@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F5E74BB1B8CB5E000E378EA /* MQTTIBMQuickStart.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E74BA1B8CB5E000E378EA /* MQTTIBMQuickStart.m */; };
+		7F5E74C71B8CB72A00E378EA /* libMQTTKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F5E74C21B8CB71C00E378EA /* libMQTTKit.a */; };
+		7F77A0BD1B8C70C7004AD5E4 /* deviceInformationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F77A0BC1B8C70C7004AD5E4 /* deviceInformationService.m */; };
+		7F77A0C11B8C85A8004AD5E4 /* siOleAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F77A0C01B8C85A8004AD5E4 /* siOleAlertView.m */; };
+		7F77A0C81B8C9E84004AD5E4 /* sensorTagKeyService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F77A0C71B8C9E84004AD5E4 /* sensorTagKeyService.m */; };
+		7F7EBC4B1B8B39D5004DF353 /* sensorTagAirPressureService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7EBC4A1B8B39D5004DF353 /* sensorTagAirPressureService.m */; };
+		7F7EBC4E1B8B3F85004DF353 /* sensorTagHumidityService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7EBC4D1B8B3F85004DF353 /* sensorTagHumidityService.m */; };
+		7F7EBC511B8B493D004DF353 /* sensorTagMovementService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7EBC501B8B493D004DF353 /* sensorTagMovementService.m */; };
+		7F7EF3F41B835DE4008C8749 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7EF3F31B835DE4008C8749 /* main.m */; };
+		7F7EF3F71B835DE4008C8749 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7EF3F61B835DE4008C8749 /* AppDelegate.m */; };
+		7F7EF3FA1B835DE4008C8749 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7EF3F91B835DE4008C8749 /* ViewController.m */; };
+		7F7EF3FD1B835DE4008C8749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F7EF3FB1B835DE4008C8749 /* Main.storyboard */; };
+		7F7EF3FF1B835DE4008C8749 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F7EF3FE1B835DE4008C8749 /* Images.xcassets */; };
+		7F7EF4021B835DE4008C8749 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F7EF4001B835DE4008C8749 /* LaunchScreen.xib */; };
+		7F7EF4191B83609B008C8749 /* bluetoothHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7EF4181B83609B008C8749 /* bluetoothHandler.m */; };
+		7F7EF41C1B8361FA008C8749 /* bleGenericService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7EF41B1B8361FA008C8749 /* bleGenericService.m */; };
+		7F7EF4201B836D90008C8749 /* sensorTagAmbientTemperatureService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7EF41F1B836D90008C8749 /* sensorTagAmbientTemperatureService.m */; };
+		7F7EF4261B837DAA008C8749 /* sensorFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7EF4251B837DAA008C8749 /* sensorFunctions.m */; };
+		7F7EF42A1B84797A008C8749 /* DeviceSelectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7EF4281B84797A008C8749 /* DeviceSelectTableViewController.m */; };
+		7F7EF42D1B84A2CD008C8749 /* displayTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7EF42C1B84A2CD008C8749 /* displayTile.m */; };
+		7F7EF4311B84B72F008C8749 /* oneValueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7EF4301B84B72F008C8749 /* oneValueCell.m */; };
+		7FFBBF3E1B8B68080080F16C /* sensorTagLightService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFBBF3D1B8B68080080F16C /* sensorTagLightService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F5E74C11B8CB71C00E378EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F5E74BC1B8CB71C00E378EA /* MQTTKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 93EEBC981816CAB00055100D;
+			remoteInfo = MQTTKit;
+		};
+		7F5E74C31B8CB71C00E378EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F5E74BC1B8CB71C00E378EA /* MQTTKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 93EEBCA81816CAB00055100D;
+			remoteInfo = MQTTKitTests;
+		};
+		7F5E74C51B8CB72400E378EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F5E74BC1B8CB71C00E378EA /* MQTTKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 93EEBC971816CAB00055100D;
+			remoteInfo = MQTTKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F5E74B91B8CB5E000E378EA /* MQTTIBMQuickStart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTIBMQuickStart.h; sourceTree = "<group>"; };
+		7F5E74BA1B8CB5E000E378EA /* MQTTIBMQuickStart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTTIBMQuickStart.m; sourceTree = "<group>"; };
+		7F5E74BC1B8CB71C00E378EA /* MQTTKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MQTTKit.xcodeproj; path = MQTT/MQTTKit/MQTTKit.xcodeproj; sourceTree = "<group>"; };
+		7F77A0BB1B8C70C7004AD5E4 /* deviceInformationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deviceInformationService.h; sourceTree = "<group>"; };
+		7F77A0BC1B8C70C7004AD5E4 /* deviceInformationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = deviceInformationService.m; sourceTree = "<group>"; };
+		7F77A0BF1B8C85A8004AD5E4 /* siOleAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = siOleAlertView.h; sourceTree = "<group>"; };
+		7F77A0C01B8C85A8004AD5E4 /* siOleAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = siOleAlertView.m; sourceTree = "<group>"; };
+		7F77A0C61B8C9E84004AD5E4 /* sensorTagKeyService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sensorTagKeyService.h; sourceTree = "<group>"; };
+		7F77A0C71B8C9E84004AD5E4 /* sensorTagKeyService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sensorTagKeyService.m; sourceTree = "<group>"; };
+		7F7EBC491B8B39D5004DF353 /* sensorTagAirPressureService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sensorTagAirPressureService.h; sourceTree = "<group>"; };
+		7F7EBC4A1B8B39D5004DF353 /* sensorTagAirPressureService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sensorTagAirPressureService.m; sourceTree = "<group>"; };
+		7F7EBC4C1B8B3F85004DF353 /* sensorTagHumidityService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sensorTagHumidityService.h; sourceTree = "<group>"; };
+		7F7EBC4D1B8B3F85004DF353 /* sensorTagHumidityService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sensorTagHumidityService.m; sourceTree = "<group>"; };
+		7F7EBC4F1B8B493D004DF353 /* sensorTagMovementService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sensorTagMovementService.h; sourceTree = "<group>"; };
+		7F7EBC501B8B493D004DF353 /* sensorTagMovementService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sensorTagMovementService.m; sourceTree = "<group>"; };
+		7F7EF3EE1B835DE4008C8749 /* SensorTag2-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SensorTag2-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F7EF3F21B835DE4008C8749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F7EF3F31B835DE4008C8749 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F7EF3F51B835DE4008C8749 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F7EF3F61B835DE4008C8749 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F7EF3F81B835DE4008C8749 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F7EF3F91B835DE4008C8749 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F7EF3FC1B835DE4008C8749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F7EF3FE1B835DE4008C8749 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7F7EF4011B835DE4008C8749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7F7EF4171B83609B008C8749 /* bluetoothHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bluetoothHandler.h; sourceTree = "<group>"; };
+		7F7EF4181B83609B008C8749 /* bluetoothHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bluetoothHandler.m; sourceTree = "<group>"; };
+		7F7EF41A1B8361FA008C8749 /* bleGenericService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bleGenericService.h; sourceTree = "<group>"; };
+		7F7EF41B1B8361FA008C8749 /* bleGenericService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bleGenericService.m; sourceTree = "<group>"; };
+		7F7EF41E1B836D90008C8749 /* sensorTagAmbientTemperatureService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sensorTagAmbientTemperatureService.h; sourceTree = "<group>"; };
+		7F7EF41F1B836D90008C8749 /* sensorTagAmbientTemperatureService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sensorTagAmbientTemperatureService.m; sourceTree = "<group>"; };
+		7F7EF4211B836DD1008C8749 /* masterUUIDList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = masterUUIDList.h; sourceTree = "<group>"; };
+		7F7EF4241B837DAA008C8749 /* sensorFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sensorFunctions.h; sourceTree = "<group>"; };
+		7F7EF4251B837DAA008C8749 /* sensorFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sensorFunctions.m; sourceTree = "<group>"; };
+		7F7EF4271B837FDE008C8749 /* masterMQTTResourceList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = masterMQTTResourceList.h; sourceTree = "<group>"; };
+		7F7EF4281B84797A008C8749 /* DeviceSelectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceSelectTableViewController.m; sourceTree = "<group>"; };
+		7F7EF4291B84797A008C8749 /* DeviceSelectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceSelectTableViewController.h; sourceTree = "<group>"; };
+		7F7EF42B1B84A2CD008C8749 /* displayTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = displayTile.h; sourceTree = "<group>"; };
+		7F7EF42C1B84A2CD008C8749 /* displayTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = displayTile.m; sourceTree = "<group>"; };
+		7F7EF42F1B84B72F008C8749 /* oneValueCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oneValueCell.h; sourceTree = "<group>"; };
+		7F7EF4301B84B72F008C8749 /* oneValueCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = oneValueCell.m; sourceTree = "<group>"; };
+		7FFBBF3C1B8B68080080F16C /* sensorTagLightService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sensorTagLightService.h; sourceTree = "<group>"; };
+		7FFBBF3D1B8B68080080F16C /* sensorTagLightService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sensorTagLightService.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F7EF3EB1B835DE4008C8749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F5E74C71B8CB72A00E378EA /* libMQTTKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F5E74BD1B8CB71C00E378EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F5E74C21B8CB71C00E378EA /* libMQTTKit.a */,
+				7F5E74C41B8CB71C00E378EA /* MQTTKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F7A1F241B8D923B00432CEC /* MQTT */ = {
+			isa = PBXGroup;
+			children = (
+				7F7EF4271B837FDE008C8749 /* masterMQTTResourceList.h */,
+				7F5E74B91B8CB5E000E378EA /* MQTTIBMQuickStart.h */,
+				7F5E74BA1B8CB5E000E378EA /* MQTTIBMQuickStart.m */,
+			);
+			name = MQTT;
+			sourceTree = "<group>";
+		};
+		7F7A1F251B8D926700432CEC /* CoreBluetooth Handling */ = {
+			isa = PBXGroup;
+			children = (
+				7F7EF4281B84797A008C8749 /* DeviceSelectTableViewController.m */,
+				7F7EF4291B84797A008C8749 /* DeviceSelectTableViewController.h */,
+				7F7EF4211B836DD1008C8749 /* masterUUIDList.h */,
+				7F7EF4171B83609B008C8749 /* bluetoothHandler.h */,
+				7F7EF4181B83609B008C8749 /* bluetoothHandler.m */,
+			);
+			name = "CoreBluetooth Handling";
+			sourceTree = "<group>";
+		};
+		7F7EF3E51B835DE4008C8749 = {
+			isa = PBXGroup;
+			children = (
+				7F5E74BC1B8CB71C00E378EA /* MQTTKit.xcodeproj */,
+				7F7EF3F01B835DE4008C8749 /* SensorTag2-Example */,
+				7F7EF3EF1B835DE4008C8749 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F7EF3EF1B835DE4008C8749 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F7EF3EE1B835DE4008C8749 /* SensorTag2-Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F7EF3F01B835DE4008C8749 /* SensorTag2-Example */ = {
+			isa = PBXGroup;
+			children = (
+				7F7EF3F51B835DE4008C8749 /* AppDelegate.h */,
+				7F7EF3F61B835DE4008C8749 /* AppDelegate.m */,
+				7F7EF3F81B835DE4008C8749 /* ViewController.h */,
+				7F7EF3F91B835DE4008C8749 /* ViewController.m */,
+				7F77A0BF1B8C85A8004AD5E4 /* siOleAlertView.h */,
+				7F77A0C01B8C85A8004AD5E4 /* siOleAlertView.m */,
+				7F7A1F241B8D923B00432CEC /* MQTT */,
+				7F7EF42E1B84A2D3008C8749 /* Display Tiles */,
+				7F7EF41D1B836D59008C8749 /* Bluetooth Services */,
+				7F7A1F251B8D926700432CEC /* CoreBluetooth Handling */,
+				7F7EF3FB1B835DE4008C8749 /* Main.storyboard */,
+				7F7EF3FE1B835DE4008C8749 /* Images.xcassets */,
+				7F7EF4001B835DE4008C8749 /* LaunchScreen.xib */,
+				7F7EF3F11B835DE4008C8749 /* Supporting Files */,
+			);
+			path = "SensorTag2-Example";
+			sourceTree = "<group>";
+		};
+		7F7EF3F11B835DE4008C8749 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F7EF3F21B835DE4008C8749 /* Info.plist */,
+				7F7EF3F31B835DE4008C8749 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F7EF41D1B836D59008C8749 /* Bluetooth Services */ = {
+			isa = PBXGroup;
+			children = (
+				7F77A0C61B8C9E84004AD5E4 /* sensorTagKeyService.h */,
+				7F77A0C71B8C9E84004AD5E4 /* sensorTagKeyService.m */,
+				7F77A0BB1B8C70C7004AD5E4 /* deviceInformationService.h */,
+				7F77A0BC1B8C70C7004AD5E4 /* deviceInformationService.m */,
+				7FFBBF3C1B8B68080080F16C /* sensorTagLightService.h */,
+				7FFBBF3D1B8B68080080F16C /* sensorTagLightService.m */,
+				7F7EF41A1B8361FA008C8749 /* bleGenericService.h */,
+				7F7EF41B1B8361FA008C8749 /* bleGenericService.m */,
+				7F7EF4241B837DAA008C8749 /* sensorFunctions.h */,
+				7F7EF4251B837DAA008C8749 /* sensorFunctions.m */,
+				7F7EF41E1B836D90008C8749 /* sensorTagAmbientTemperatureService.h */,
+				7F7EF41F1B836D90008C8749 /* sensorTagAmbientTemperatureService.m */,
+				7F7EBC491B8B39D5004DF353 /* sensorTagAirPressureService.h */,
+				7F7EBC4A1B8B39D5004DF353 /* sensorTagAirPressureService.m */,
+				7F7EBC4C1B8B3F85004DF353 /* sensorTagHumidityService.h */,
+				7F7EBC4D1B8B3F85004DF353 /* sensorTagHumidityService.m */,
+				7F7EBC4F1B8B493D004DF353 /* sensorTagMovementService.h */,
+				7F7EBC501B8B493D004DF353 /* sensorTagMovementService.m */,
+			);
+			name = "Bluetooth Services";
+			sourceTree = "<group>";
+		};
+		7F7EF42E1B84A2D3008C8749 /* Display Tiles */ = {
+			isa = PBXGroup;
+			children = (
+				7F7EF42B1B84A2CD008C8749 /* displayTile.h */,
+				7F7EF42C1B84A2CD008C8749 /* displayTile.m */,
+				7F7EF42F1B84B72F008C8749 /* oneValueCell.h */,
+				7F7EF4301B84B72F008C8749 /* oneValueCell.m */,
+			);
+			name = "Display Tiles";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F7EF3ED1B835DE4008C8749 /* SensorTag2-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F7EF4111B835DE4008C8749 /* Build configuration list for PBXNativeTarget "SensorTag2-Example" */;
+			buildPhases = (
+				7F7EF3EA1B835DE4008C8749 /* Sources */,
+				7F7EF3EB1B835DE4008C8749 /* Frameworks */,
+				7F7EF3EC1B835DE4008C8749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F5E74C61B8CB72400E378EA /* PBXTargetDependency */,
+			);
+			name = "SensorTag2-Example";
+			productName = "SensorTag2-Example";
+			productReference = 7F7EF3EE1B835DE4008C8749 /* SensorTag2-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F7EF3E61B835DE4008C8749 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Texas Instruments";
+				TargetAttributes = {
+					7F7EF3ED1B835DE4008C8749 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = V63Z98ZJ88;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 7F7EF3E91B835DE4008C8749 /* Build configuration list for PBXProject "SensorTag2-Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F7EF3E51B835DE4008C8749;
+			productRefGroup = 7F7EF3EF1B835DE4008C8749 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7F5E74BD1B8CB71C00E378EA /* Products */;
+					ProjectRef = 7F5E74BC1B8CB71C00E378EA /* MQTTKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				7F7EF3ED1B835DE4008C8749 /* SensorTag2-Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7F5E74C21B8CB71C00E378EA /* libMQTTKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMQTTKit.a;
+			remoteRef = 7F5E74C11B8CB71C00E378EA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7F5E74C41B8CB71C00E378EA /* MQTTKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MQTTKitTests.xctest;
+			remoteRef = 7F5E74C31B8CB71C00E378EA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F7EF3EC1B835DE4008C8749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F7EF3FD1B835DE4008C8749 /* Main.storyboard in Resources */,
+				7F7EF4021B835DE4008C8749 /* LaunchScreen.xib in Resources */,
+				7F7EF3FF1B835DE4008C8749 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F7EF3EA1B835DE4008C8749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F7EF4311B84B72F008C8749 /* oneValueCell.m in Sources */,
+				7F7EF3FA1B835DE4008C8749 /* ViewController.m in Sources */,
+				7F7EF42A1B84797A008C8749 /* DeviceSelectTableViewController.m in Sources */,
+				7F7EF42D1B84A2CD008C8749 /* displayTile.m in Sources */,
+				7FFBBF3E1B8B68080080F16C /* sensorTagLightService.m in Sources */,
+				7F7EBC511B8B493D004DF353 /* sensorTagMovementService.m in Sources */,
+				7F7EBC4B1B8B39D5004DF353 /* sensorTagAirPressureService.m in Sources */,
+				7F5E74BB1B8CB5E000E378EA /* MQTTIBMQuickStart.m in Sources */,
+				7F77A0BD1B8C70C7004AD5E4 /* deviceInformationService.m in Sources */,
+				7F7EBC4E1B8B3F85004DF353 /* sensorTagHumidityService.m in Sources */,
+				7F7EF4261B837DAA008C8749 /* sensorFunctions.m in Sources */,
+				7F77A0C11B8C85A8004AD5E4 /* siOleAlertView.m in Sources */,
+				7F7EF4191B83609B008C8749 /* bluetoothHandler.m in Sources */,
+				7F7EF4201B836D90008C8749 /* sensorTagAmbientTemperatureService.m in Sources */,
+				7F7EF3F71B835DE4008C8749 /* AppDelegate.m in Sources */,
+				7F7EF41C1B8361FA008C8749 /* bleGenericService.m in Sources */,
+				7F7EF3F41B835DE4008C8749 /* main.m in Sources */,
+				7F77A0C81B8C9E84004AD5E4 /* sensorTagKeyService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F5E74C61B8CB72400E378EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MQTTKit;
+			targetProxy = 7F5E74C51B8CB72400E378EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F7EF3FB1B835DE4008C8749 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F7EF3FC1B835DE4008C8749 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F7EF4001B835DE4008C8749 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F7EF4011B835DE4008C8749 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F7EF40F1B835DE4008C8749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "MQTT/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F7EF4101B835DE4008C8749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "MQTT/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F7EF4121B835DE4008C8749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "SensorTag2-Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ti.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		7F7EF4131B835DE4008C8749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "SensorTag2-Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ti.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F7EF3E91B835DE4008C8749 /* Build configuration list for PBXProject "SensorTag2-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F7EF40F1B835DE4008C8749 /* Debug */,
+				7F7EF4101B835DE4008C8749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F7EF4111B835DE4008C8749 /* Build configuration list for PBXNativeTarget "SensorTag2-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F7EF4121B835DE4008C8749 /* Debug */,
+				7F7EF4131B835DE4008C8749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F7EF3E61B835DE4008C8749 /* Project object */;
+}
